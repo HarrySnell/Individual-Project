@@ -93,9 +93,7 @@ int numberOfSpheres
 			// If the primary ray has no valid intersections with either the plane or the sphere,
 			// the current pixel colour is set to the background colour,
 			// and the kernel instance for the current work item / id terminates here. 
-			outputData[id].x = backgroundColour.x;
-			outputData[id].y = backgroundColour.y;
-			outputData[id].z = backgroundColour.z;
+			outputData[id] = backgroundColour;
 		}
 		else{
 			// If the primary ray intersects at least one of the scene objects, 
