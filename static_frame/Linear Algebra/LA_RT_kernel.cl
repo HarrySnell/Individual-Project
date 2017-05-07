@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////
-// Aurthor: Harry Snell - 140342321
+// Author: Harry Snell - 140342321
 // Date: 30/04/17
 // Desciption: OpenCL Linear Algebra static frame ray tracer - OpenCL kernel  
 // File 2 of 2 
